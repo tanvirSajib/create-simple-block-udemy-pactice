@@ -1,12 +1,13 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
-	"apiVersion": 3,
-	"name": "create-block/create-simple-block-udemy-pactice",
+	"apiVersion": 3,	
+	"name": "blocks-course/text-box",
 	"version": "0.1.0",
-	"title": "Create Simple Block Udemy Pactice",
-	"category": "widgets",
-	"icon": "smiley",
-	"description": "Example block scaffolded with Create Block tool.",
+	"title": "Text Box pactice",
+	"category": "text",
+	"icon": "text-page",
+	"description": "A box of text.",
+	"keywords": ["text", "paragraph", "box"],	
 	"example": {},
 	"supports": {
 		"html": false
