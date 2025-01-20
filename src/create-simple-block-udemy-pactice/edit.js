@@ -31,13 +31,15 @@ export default function Edit( { attributes, setAttributes } ) {
 			</BlockControls>
 
 			<RichText
-				{ ...useBlockProps() }
+				{ ...useBlockProps({
+					className: `text-box-align-${ alignment }`,
+				}) }
 				onChange={ ( value ) => setAttributes( { text: value } ) }
 				value={ text }
 				placeholder={ __( 'Your Text', 'text-box' ) }
 				tagName="h4"
 				allowedFormats={ [ 'core/bold' ] }
-				style={{textAlign: alignment}}
+				
 			/>
 		</>
 	);
