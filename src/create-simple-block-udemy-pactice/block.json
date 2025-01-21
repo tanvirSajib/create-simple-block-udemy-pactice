@@ -26,6 +26,12 @@
 		},
 		"textColor": {
 			"type": "string"
+		},
+		"customBackgroundColor": {
+			"type": "string"
+		},
+		"customTextColor": {
+			"type": "string"
 		}
 	},
 	"textdomain": "create-simple-block-udemy-pactice",
