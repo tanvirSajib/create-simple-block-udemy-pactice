@@ -8,6 +8,7 @@ import './style.scss';
 import Edit from './edit';
 import save from './save';
 import metadata from './block.json';
+import { __ } from '@wordpress/i18n';
 
 registerBlockType( metadata.name, {
 	icon: {
@@ -23,6 +24,16 @@ registerBlockType( metadata.name, {
 		background: '#f03',
 		foreground: '#fff',
 	},
+	variations: [
+		{
+			name: 'blocks-course/gradient-text-box',
+			title: __( 'Gradient Text Box' ),
+			icon: 'wordpress',
+			attributes: {
+				gradient: 'red-to-blue',
+			},
+		},
+	],
 	edit: Edit,
 	save,
 } );
