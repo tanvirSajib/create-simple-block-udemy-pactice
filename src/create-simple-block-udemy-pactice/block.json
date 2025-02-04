@@ -19,6 +19,15 @@
 			"padding": true
 		}
 	},
+	"styles": [{
+		"name": "squared",
+		"label": "Squared",
+		"isDefault": true
+	}, 
+	{
+		"name": "rounded",
+		"label": "Rounded"
+	}],
 	"attributes": {
 		"text": {
 			"type": "string",
