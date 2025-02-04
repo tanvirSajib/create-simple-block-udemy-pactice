@@ -14,6 +14,9 @@
 			"background": true,
 			"text": true,
 			"gradients": true
+		},
+		"spacing": {
+			"padding": true
 		}
 	},
 	"attributes": {
@@ -41,9 +44,12 @@
 			"default": {
 				"color": {
 					"background": "#f03"
+				},
+				"spacing": {
+					"padding": {"top":"50px","right":"50px","bottom":"50px","left":"50px"}
 				}
 			}
-		}	
+		}
 	},
 	"textdomain": "create-simple-block-udemy-pactice",
 	"editorScript": "file:./index.js",
